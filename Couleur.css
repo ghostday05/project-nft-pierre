@@ -1,0 +1,94 @@
+/* NFT */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #081633;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgb(20, 37, 61);
+  max-width: 300px;
+  padding: 1rem;
+  border-radius: 5%;
+}
+.card_image_header {
+  width: 100%;
+  border-radius: 5%;
+}
+
+p {
+  color: gray;
+}
+h1 {
+  font-size: 23px;
+}
+.text {
+  display: flex;
+  border-bottom: 1px solid rgba(99, 95, 95, 0.459);
+  justify-content: space-between;
+}
+.text p {
+  color: cyan;
+}
+.image_eth {
+  padding-right: 5px;
+}
+.balise_p {
+  display: flex;
+  align-items: center;
+}
+.text1 {
+  display: flex;
+}
+.image_gris {
+  /* padding-left: 110px;
+  padding-right: 7px; */
+  padding-right: 7px;
+}
+.text1 p {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+}
+.image_avatar {
+  width: 10%;
+  padding-right: 15px;
+}
+.name p {
+  display: flex;
+  align-items: center;
+}
+.card h1:hover {
+  color: cyan;
+}
+.prenom:hover {
+  color: cyan;
+}
+.prenom {
+  margin-left: 5px;
+  color: white;
+}
+.card_image_header:hover {
+  color: cyan;
+}
+/* .text p{
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .container1 {
+      display: flex;
+      align-content:center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color:hsl(216, 50%, 16%)
+} */
