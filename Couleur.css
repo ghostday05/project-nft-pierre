@@ -79,6 +79,22 @@ h1 {
 .card_image_header:hover {
   color: cyan;
 }
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.overlay:hover {
+  color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+}
+
 /* .text p{
   display: flex;
   justify-content: space-between;
